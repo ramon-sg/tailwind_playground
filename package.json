@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "parcel:dev": "parcel src/index.html --port 4000",
+    "parcel:dev": "parcel src/*.html --port 4000",
     "parcel:build": "parcel build src/index.html",
     "clean": "rimraf dist .cache",
     "dev": "npm-run-all -s clean parcel:dev",
