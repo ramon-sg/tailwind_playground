@@ -1,10 +1,13 @@
-module.exports = {
-  prefix: "",
-  important: false,
-  separator: ":",
+const colors = require("tailwindcss/colors");
 
-  theme: {},
+module.exports = {
+  purge: ["./public/**/*.html"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors,
+    },
+  },
   variants: {},
-  corePlugins: {},
   plugins: [],
 };

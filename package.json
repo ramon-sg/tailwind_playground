@@ -20,6 +20,6 @@
     "posthtml-load-config": "^2.0.0",
     "rimraf": "^3.0.2",
     "sections": "^1.0.0",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^2.0.1"
   }
 }
