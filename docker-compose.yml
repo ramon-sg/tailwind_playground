@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: bash scripts/run-dev
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/web
+      - ./data/history:/history
