@@ -4,9 +4,9 @@
 
 This template includes:
 
-- **Tailwind CSS**
-- **Parcel Bundler**
-- **Tailblocks (Ready-to-use Tailwind CSS blocks)**
+- **Tailwind 3**
+- **Parcel (posthtml-expression and posthtml-include)**
+- **Posthtml**
 
 ## How to Use
 
