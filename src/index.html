@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Vite App</title>
   </head>
-  <body class="font-sans">
-    <include src="partials/header.html"></include>
-    <section class="text-gray-700 body-font">
+  <body>
+    {{> header }}
+<section class="text-gray-700 body-font">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
@@ -40,6 +42,7 @@
         </div>
       </div>
     </section>
-    <script src="./index.js" type="module"></script>
+
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

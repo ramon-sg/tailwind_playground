@@ -1,12 +1,12 @@
-# Tailwind CSS Playground with Parcel
+# Tailwind CSS Playground with Vite (vanilla template)
 
 ## Features
 
 This template includes:
 
-- **Tailwind 3**
-- **Parcel (posthtml-expression and posthtml-include)**
-- **Posthtml**
+- **Tailwind ^3.2.0**
+- **Vite**
+- **Handlebars (vite-plugin-handlebars)**
 
 ## How to Use
 
@@ -34,5 +34,6 @@ Visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## Sources
 
-- [tailwindlabs/tailwindcss-playground](https://github.com/tailwindlabs/tailwindcss-playground)
+- [Vitejs guide](https://vitejs.dev/guide/)
 - [Ready-to-use Tailwind CSS blocks](https://mertjf.github.io/tailblocks/)
+- [Vite plugin handlebars](https://www.npmjs.com/package/vite-plugin-handlebars)
